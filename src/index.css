@@ -1,14 +1,51 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: sans-serif;
+}
+.loginPage{
+ position: fixed;
+  top: 55%;
+  left: 50%;
+  max-width: '70%';
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.createBox{
+ border: 2px solid gainsboro;
+ border-radius: 2%;
+ margin-top: 3px;
+ text-align: center
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+#grad1 {
+    height: 1000px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#8F5CC7, #65359A); /* Standard syntax (must be last) */
 }
+#formDiv{
+  width: '34%' ;
+  background-color :#fff; 
+  padding-bottom: 3%
+}
+#input{
+  border-radius: 25px
+}
+#inputLabel{
+  color : #8989A8
+}
+.loginBox{
+ border: 2px solid gainsboro;
+ border-radius: 2%;
+ padding: 12px; 
+ background-color:  '#202020'
+}
+/* .signinheading{
+  text-align: center;
+  font-weight: bold;
+  color: skyblue;
+  font-size: 2em
+} */

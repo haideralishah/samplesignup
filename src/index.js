@@ -1,12 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import firebase from 'firebase'
 import './index.css';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
-
-ReactDOM.render(<App />, document.getElementById('root'));
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: http://bit.ly/CRA-PWA
-serviceWorker.unregister();
+import registerServiceWorker from './registerServiceWorker';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import 'bootstrap/dist/css/bootstrap.min.css';
+var config = {
+  apiKey: "AIzaSyBZYZptAREbru2bAT_dGl39EMeie9pZCOA",
+  authDomain: "chatapp-6a2da.firebaseapp.com",
+  databaseURL: "https://chatapp-6a2da.firebaseio.com",
+  providerId: "https://chatapp-6a2da.firebaseapp.com/__/auth/handler",
+  projectId: "chatapp-6a2da",
+  storageBucket: "",
+  messagingSenderId: "940451492073"
+};
+firebase.initializeApp(config);
+ReactDOM.render(
+  <MuiThemeProvider >
+    <App />
+  </MuiThemeProvider>
+  ,
+  document.getElementById('root'));
+registerServiceWorker();
