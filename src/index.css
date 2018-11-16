@@ -101,6 +101,10 @@ margin-bottom: -56px
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px
 }
+.homeDiv{
+  width: 34%;
+  padding: 4%
+}
 @media only screen and (max-width: 912px) {
   .formDiv {
     width: 60%;
@@ -112,6 +116,10 @@ margin-bottom: -56px
     height : 17px;
     background-color: #DB82FF;
     border-radius: 5px
+  }
+  .homeDiv{
+    width:60%;
+    padding: 4%
   }
   .progressBar {
     width: 20%;
@@ -175,6 +183,10 @@ margin-bottom: -56px
     width: 90%;
     background-color:white;
      padding-bottom: 3%
+  }
+  .homeDiv{
+    width:90%;
+    padding: 4%
   }
   .progressBarSignIn{
     width: 90%;

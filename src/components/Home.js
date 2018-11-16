@@ -14,11 +14,13 @@ class Home extends Component {
         return (
             <div className="d-flex flex-column" id="grad1" >
                 <div className="d-flex justify-content-center" style={{ marginTop: '4%' }}>
-                    <img src={require('./logo.png')} style={{ height: '10%', width: '18%' }} />
+                    <img 
+                    src={require('./logo.png')} 
+                    className='logoImage' />
                 </div>
 
                 <div className="d-flex justify-content-center" style = {{padding : "20px"}}>
-                    <div style={{ width: '34%',  padding :  '3%'  }}>
+                    <div className = 'homeDiv'>
                         <Link to = '/signup-stylist' className="d-flex justify-content-center" style = {{marginBottom : "3%" , textDecoration : "none", }} >
                             <Button color="success" size="lg" style={{
                                 width: '80%', borderRadius: '7px',
@@ -30,8 +32,7 @@ class Home extends Component {
                             <Button color="success" size="lg" style={{
                                 width: '80%', borderRadius: '7px',textDecoration : "none", 
                                 backgroundColor: '#6E14E8', borderColor: '#6E14E8', color: '#fff', fontSize: '24x'
-                            }} >Register As User</Button>
-                            
+                            }} >Register As User</Button>   
                         </Link>
                     </div>
                 </div>
