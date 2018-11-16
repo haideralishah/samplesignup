@@ -20,9 +20,214 @@ body {
  margin-top: 3px;
  text-align: center
 }
+.formDiv {
+  width: 34%;
+  background-color:white;
+   padding-bottom: 3%
+}
+.logoImage {
+  height: 18%;
+  width: 18%
+}
+.inputTag{
+  border-radius: 25px
+}
+.nextButton{
+  width: 50%;
+  border-radius: 50px;
+  background-color: #24D787; 
+  border-color: #24D787;
+  color: #ffffff;
+  font-size: 24px
+}
+.step2btnDiv{
+  margin-bottom: -83px;
+  position: relative
+}
 
+.btnDiv{
+position: relative;
+margin-bottom: -56px
+}
+.signinLink{
+  margin: 25px; 
+  margin-bottom: 3%;
+  margin-top: 5%
+}
+.step1next{
+  margin-bottom: -76px
+  /* margin-bottom: -83px */
+}
+
+.btnDivStep1{
+  margin-top:  41px;
+  margin-bottom: -35%;
+  position: relative;
+}
+.btnDivStep2{
+  margin-top:  41px;
+  margin-bottom: -19%;
+  position: relative;
+}
+.inlineDiv{
+  width : 100%;
+}
+.progressBar {
+  width: 10%;
+  height : 17px;
+  background-color: #DB82FF;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-right: '5px'
+}
+.progressBar1 {
+  width: 10%;
+  height : 17px;
+  background-color: #ffffff;
+  margin-right: '5px'
+  /* border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px */
+}
+.progressBar2 {
+  width: 10%;
+  height : 17px;
+  background-color: #ffffff;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px
+}
+@media only screen and (max-width: 912px) {
+  .formDiv {
+    width: 60%;
+    background-color:white;
+     padding-bottom: 3%
+  }
+  .progressBar {
+    width: 20%;
+    height : 17px;
+    background-color: #DB82FF;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-right: '5px'
+  }
+  .progressBar1 {
+    width: 20%;
+    height : 17px;
+    background-color: #ffffff;
+    margin-right: '5px'
+    /* border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px */
+  }
+  .progressBar2 {
+    width: 20%;
+    height : 17px;
+    background-color: #ffffff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px
+  }
+  .logoImage {
+    margin-top: 3%;
+    height: 40%;
+    width: 40%
+  }
+  .btnDiv{
+    position: relative;
+    margin-bottom: -28px
+    }
+    .signinLink{
+      /* margin: 25px;  */
+      /* margin-bottom: 3%; */
+      margin-top: 12%
+    }
+    .step1next{
+      margin-bottom: -52px
+      /* margin-bottom: -83px */
+    }
+    .step2btnDiv{
+      margin-bottom: -68px;
+      position: relative
+    }
+    .btnDivStep1{
+      margin-top:  22px;
+  margin-bottom: -27%;
+    }
+    .btnDivStep2{
+      margin-top:  36px;
+      margin-bottom: -16%;
+      position: relative;
+    }
+}
+
+
+@media only screen and (max-width: 712px) {
+  .formDiv {
+    width: 90%;
+    background-color:white;
+     padding-bottom: 3%
+  }
+  .progressBar {
+    width: 30%;
+    height : 17px;
+    background-color: #DB82FF;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-right: '5px'
+  }
+  .progressBar1 {
+    width: 30%;
+    height : 17px;
+    background-color: #ffffff;
+    margin-right: '5px'
+    /* border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px */
+  }
+  .progressBar2 {
+    width: 30%;
+    height : 17px;
+    background-color: #ffffff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px
+  }
+  .logoImage {
+    margin-top: 3%;
+    height: 40%;
+    width: 40%
+  }
+  .btnDiv{
+    position: relative;
+    margin-bottom: -28px
+    }
+    .signinLink{
+      /* margin: 25px;  */
+      /* margin-bottom: 3%; */
+      margin-top: 12%
+    }
+    .step1next{
+      margin-bottom: -52px
+      /* margin-bottom: -83px */
+    }
+    .step2btnDiv{
+      margin-bottom: -68px;
+      position: relative
+    }
+    .btnDivStep1{
+      margin-top:  41px;
+  margin-bottom: -22%;
+    }
+    .btnDivStep2{
+      margin-top:  45px;
+      margin-bottom: -14%;
+      position: relative;
+    }
+}
+@media only screen and (max-width: 400px) {
+  .step2btnDiv{
+    /* justify-content: center; */
+    margin-top: 26px;
+    position: relative
+  }
+}
 #grad1 {
-    height: 1000px;
+    height: 1400px;
     background-color: red; /* For browsers that do not support gradients */
     background-image: linear-gradient(#8F5CC7, #65359A); /* Standard syntax (must be last) */
 }
