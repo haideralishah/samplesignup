@@ -32,16 +32,9 @@ class Signin extends Component {
                 <p style = {{color : '#fff' , fontSize : "24px"}}> Log In </p>
                     </div>
                 <div className="d-flex justify-content-center" style={{ marginTop: '3%', marginBottom: '1.5%' }}>
-                    <div className='progressBar'>
+                    <div className='progressBarSignIn'>
                     </div>
-                    <div style={{ width: '.40%' }}>
-                    </div>
-                    <div className='progressBar1'>
-                    </div>
-                    <div style={{ width: '.40%' }}>
-                    </div>
-                    <div className='progressBar2'>
-                    </div>
+                    
                 </div>
                 <div className="d-flex justify-content-center " >
                     <div className='formDiv'>
@@ -80,7 +73,7 @@ class Signin extends Component {
                             <Button color="success" size="lg" style={{
                                 width: '50%', borderRadius: '25px',marginBottom : "1%",
                                 backgroundColor: '#24D787', borderColor: '#24D787', color: '#fff', fontSize: '24x'
-                            }} onClick={() => this.signin()} >log in</Button>
+                            }} onClick={() => this.signin()} >login</Button>
                         </div>
                     </div>
 

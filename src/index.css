@@ -80,6 +80,12 @@ margin-bottom: -56px
   border-bottom-left-radius: 5px;
   margin-right: '5px'
 }
+.progressBarSignIn{
+  width: 33%;
+  height : 17px;
+  background-color: #DB82FF;
+  border-radius: 5px
+}
 .progressBar1 {
   width: 10%;
   height : 17px;
@@ -100,6 +106,12 @@ margin-bottom: -56px
     width: 60%;
     background-color:white;
      padding-bottom: 3%
+  }
+  .progressBarSignIn{
+    width: 60%;
+    height : 17px;
+    background-color: #DB82FF;
+    border-radius: 5px
   }
   .progressBar {
     width: 20%;
@@ -163,6 +175,12 @@ margin-bottom: -56px
     width: 90%;
     background-color:white;
      padding-bottom: 3%
+  }
+  .progressBarSignIn{
+    width: 90%;
+    height : 17px;
+    background-color: #DB82FF;
+    border-radius: 5px
   }
   .progressBar {
     width: 30%;
